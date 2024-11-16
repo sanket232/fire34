@@ -1,0 +1,184 @@
+
+#i1{
+    color: rgb(231,104,0);
+    cursor: pointer;
+}
+.navbar{
+    margin-left: 50px;
+}
+.nav-item{
+    list-style: none;
+    margin-left: 30px;
+    font-family: 600;
+}
+.nav-item:hover{
+    color: rgb(231,104,0);
+}
+#call1{
+    margin-left: 80px;
+}
+#En{
+  margin-left: 30px;
+  /* margin-right: 80px; */
+}
+#vol1{
+    margin-left: 120px;
+    margin-top: -5px;
+    font-size: 30px;
+    color: rgb(231,104,0);
+    
+}
+#banner{
+  background-image: url;
+}
+#text{
+    margin-left: -700px;
+     margin-top:-450px;
+     font-size: 23px;
+     word-spacing: 10px;
+     color: rgb(231,104,0);
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: 500;
+}
+#letter{
+    font-size: 75px;
+    font-weight: 700;
+    font-family:  system-ui;
+    color: rgb(255,255,255);
+    margin-top: -15px;
+    margin-left: -290px;
+    
+}
+#pp{
+    margin-left: -250px;
+    margin-top: -5px;
+    font-size: 20px;
+    color: rgb(255,255,255);
+}
+#car{
+    filter: brightness(40%);
+}
+#button{
+    display: flex;
+    gap: 15px;
+    
+}
+#about{
+    height: 54px;
+    width: 150px;
+    background-color: rgb(243,104,0);
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 10px;
+
+}
+#learn{
+    height: 54px;
+    width: 150px;
+    background-color:rgb(255,255,255);
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 10px;
+
+}
+#l,#a{
+    font-family:  system-ui;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+}
+#learn:hover{
+    background-color:  #34495e;
+    color: rgb(255,255,255);
+}
+
+#about:hover{
+    background-color:  #34495e;
+    color: rgb(255,255,255);
+    
+}
+#f-c{
+    margin-top: 50px;
+    width: 450px;
+}
+#ab{
+    font-family:  system-ui;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 650;
+    letter-spacing: 3px;
+    margin-left: 10px;
+    color: rgb(243,104,0);
+}
+#abi{
+    margin-right: 5px;
+}
+#s-l{
+    font-size: 43px;
+    font-weight: 750;
+    font-family:  system-ui;
+    text-transform: capitalize;
+    line-height: 55px;
+    margin-top: -10px;
+}
+#p-1{
+    font-size: 15px;
+    font-weight: 500;
+    font-family:  system-ui;
+    margin-top: 5px;
+    color: rgb(139,127,149);
+    margin-top: -10px;
+}
+#s-l1,#s-l2,#s-l3{
+    color: rgb(139,127,149);
+    font-size: 15px;
+    font-weight: 650;
+    font-family:  system-ui;
+    margin-top: 20px;
+    line-height: 10px;
+
+}
+#b-1{
+    height: 54px;
+    width: 150px;
+    background-color: rgb(243,104,0);
+    color: black;
+    text-align: center;
+    cursor: pointer;
+
+    
+}
+#b-1:hover{
+    background-color:  #34495e;
+    color: rgb(255,255,255);
+}
+#cd:hover{
+ animation:fadeOut; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+
+#i1:hover{
+    animation:headShake;
+    animation-duration: 2s;
+}
+#c1:hover{
+    animation:headShake;
+    animation-duration: 2s;
+}
+#im:hover{
+    animation:pulse;
+    animation-duration: 2s;
+}
+#fighter:hover{
+    animation:headShake;
+    animation-duration: 2s;
+}
